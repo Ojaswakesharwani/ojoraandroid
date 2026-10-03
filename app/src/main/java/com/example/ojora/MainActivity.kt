@@ -105,7 +105,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                     Scaffold(
-                        modifier = Modifier.fillMaxSize(),
+                        modifier =               Modifier.fillMaxSize(),
                         contentWindowInsets = WindowInsets(0, 0, 0, 0)
                     ) { innerPadding ->
                         OjoraNavHost(
@@ -161,6 +161,12 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+
+
+
+
+
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
