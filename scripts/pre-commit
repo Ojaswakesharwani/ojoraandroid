@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "=========================================="
+echo "🚀 BINGO! Tumhara Git Hook ekdum sahi kaam kar raha hai!"
+echo "=========================================="
+exit 0
